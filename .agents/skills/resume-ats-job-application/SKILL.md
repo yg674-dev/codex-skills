@@ -11,6 +11,20 @@ Maximize evidence-backed interview competitiveness for a specific role while pre
 ## Inputs
 Obtain the user's resume, exact job description, target company, role, location/work authorization constraints where relevant, and any verified accomplishment metrics. If missing, ask for the essential item; do not invent it.
 
+## Phase 0 — Resume file audit and structure mapping
+Run this before scoring or rewriting when a resume file or connected resume folder is available. Do not assume the layout is conventional.
+
+1. **Inventory available files.** List accessible resumes and supporting documents; distinguish DOCX, PDF, and other formats. PDFs are usable as evidence and for analysis, but an editable DOCX is preferable for preserving Word layout. Do not claim a PDF is unusable.
+2. **Establish the master.** Look for a file explicitly designated `Master Resume`. If none exists and several plausible versions are available, ask the user which version should be the master before modifying files. Continue with non-destructive analysis if possible.
+3. **Inspect the actual document structure.** When file tools permit, programmatically inspect paragraphs, tables, text boxes, columns, bullet/list definitions, runs with mixed bold/italic formatting, headers, footers, and section boundaries. Do not infer structure from visual appearance alone. Record limitations where text boxes or embedded objects cannot be reliably parsed.
+4. **Classify editing safety.** Report **safe**, **partially safe**, or **unsafe** with concrete reasons. Mixed formatting alone does not necessarily make a paragraph uneditable; test whether the chosen editing method preserves runs and layout. Do not overwrite the original.
+5. **Map exact replacement units.** Record section headings, summary (if present), second summary/background paragraph (if present), most recent role/title/date line, and each experience unit. Capture paragraph indices or stable anchors, table cell coordinates where relevant, original text, and character counts. Explicitly mark absent items; never guess an index.
+6. **Describe the detected shape.** In 3–4 lines, report sections, bullet versus prose organization, employer grouping, and the actual unit to replace. Measure the real file rather than assuming a standard template.
+7. **Choose delivery mode.** If editing is safe, create a separate DOCX preserving styles, spacing, bullets, pagination, and structure as closely as possible, and validate the output. If partially safe, edit only proven-safe units and provide replacement text for the rest. If unsafe, provide paste-ready replacement bullets/paragraphs with stable location cues and character counts. Never pretend an unverified file edit succeeded.
+8. **Retain the mapping.** Include the observed structure and editing limitations in the current task's working notes or user-authorized project artifacts. Do not hardcode user-specific paragraph numbers into this reusable skill.
+
+If no file access is available, request the resume or proceed with pasted text, clearly stating that layout safety has not been assessed.
+
 ## Phase 1 — Recruiter evaluation
 Assess as a senior recruiter familiar with the role's requirements, without pretending to be an employee of the company or to know its internal screening criteria.
 
@@ -60,12 +74,13 @@ When tools and authorization permit:
 6. **Never submit applications, attest to eligibility, send messages, or alter profiles without explicit user approval for the specific actions and accurate final details.** Respect site terms and automation limits. If browsing/submission capabilities are unavailable, prepare the materials and provide a clear handoff; never claim an application was submitted.
 
 ## Recommended output
-1. Recruiter scorecard and evidence-based match estimate.
-2. Five keyword gaps and three red flags.
-3. Optimized experience bullets (before/after for significant edits).
-4. ATS checklist and 10-second scan.
-5. Final tailored resume, remaining evidence gaps, and prioritized next steps.
-6. Optional application tracker and user-approved submission plan.
+1. File audit and safe-editing plan when a resume file is provided.
+2. Recruiter scorecard and evidence-based match estimate.
+3. Five keyword gaps and three red flags.
+4. Optimized experience bullets (before/after for significant edits).
+5. ATS checklist and 10-second scan.
+6. Final tailored resume, remaining evidence gaps, and prioritized next steps.
+7. Optional application tracker and user-approved submission plan.
 
 ## Verification
 Cross-check every resume claim against source material or user confirmation. Distinguish required from preferred JD qualifications. Use current postings when sourcing roles. Cite source job URLs and checked dates. Ask the user to confirm any ambiguous or legally consequential application answers.
