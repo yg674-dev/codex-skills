@@ -9,6 +9,8 @@ Reusable skills for OpenAI Codex, maintained by yg674-dev.
 | [Persuasive Communication](.agents/skills/persuasive-communication/SKILL.md) | Audience-centered pitches, presentations, interviews, storytelling, and stakeholder communication. |
 | [Deep Problem Solving](.agents/skills/deep-problem-solving/SKILL.md) | Outcome-first analysis, primary-source research, cross-disciplinary methods, adversarial review, and independent verification. |
 
+| [Resume ATS & Job Application](.agents/skills/resume-ats-job-application/SKILL.md) | Recruiter fit scoring, XYZ resume rewrites, ATS checks, and tailored application preparation. |
+
 ## Install
 
 For project-local use, copy the `.agents/skills/` directory into the root of your Codex project.
@@ -29,6 +31,7 @@ Restart or refresh Codex skill discovery if necessary.
 
 - “Use deep-problem-solving to investigate why revenue dropped and independently verify the root causes.”
 - “Use persuasive-communication to turn the findings into a compelling 5-minute executive pitch.”
-- Combine both: rigorous evidence first, persuasive communication second.
+- Combine deep-problem-solving and persuasive-communication: rigorous evidence first, persuasive communication second.
+- “Use resume-ats-job-application to score my resume against this JD, rewrite the experience using XYZ, and check ATS readability.”
 
 These files are instructions, not a substitute for access to real data or independent validation.
