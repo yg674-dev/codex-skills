@@ -7,10 +7,9 @@ Reusable skills for OpenAI Codex, maintained by yg674-dev.
 | Skill | Purpose |
 | --- | --- |
 | [Persuasive Communication](.agents/skills/persuasive-communication/SKILL.md) | Audience-centered pitches, presentations, interviews, storytelling, and stakeholder communication. |
-| [Deep Problem Solving](.agents/skills/deep-problem-solving/SKILL.md) | Outcome-first analysis, primary-source research, cross-disciplinary methods, adversarial review, and independent verification. |
-
+| [Deep Problem Solving](.agents/skills/deep-problem-solving/SKILL.md) | Outcome-first analysis, primary-source research, hypothesis testing, evidence gathering with ReAct, and independent verification. |
+| [Prompt Engineering](.agents/skills/prompt-engineering/SKILL.md) | Reusable prompt templates, step-back prompting, ReAct, self-consistency, and model-aware evaluation. |
 | [Resume ATS & Job Application](.agents/skills/resume-ats-job-application/SKILL.md) | Recruiter fit scoring, XYZ resume rewrites, ATS checks, and tailored application preparation. |
-
 | [Executive Presence](.agents/skills/executive-presence/SKILL.md) | Seven practical habits for ownership, professional replies, meetings, stakeholder requests, and reliable follow-through. |
 
 ## Install
@@ -32,6 +31,7 @@ Restart or refresh Codex skill discovery if necessary.
 ## Suggested usage
 
 - “Use deep-problem-solving to investigate why revenue dropped and independently verify the root causes.”
+- “Use prompt-engineering to improve this ticket-triage prompt and compare it with the current version on labeled cases.”
 - “Use persuasive-communication to turn the findings into a compelling 5-minute executive pitch.”
 - Combine deep-problem-solving and persuasive-communication: rigorous evidence first, persuasive communication second.
 - “Use resume-ats-job-application to score my resume against this JD, rewrite the experience using XYZ, and check ATS readability.”
