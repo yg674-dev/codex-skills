@@ -12,6 +12,8 @@ Reusable skills for OpenAI Codex, maintained by yg674-dev.
 | [Resume ATS & Job Application](.agents/skills/resume-ats-job-application/SKILL.md) | Recruiter fit scoring, XYZ resume rewrites, ATS checks, and tailored application preparation. |
 | [Executive Presence](.agents/skills/executive-presence/SKILL.md) | Seven practical habits for ownership, professional replies, meetings, stakeholder requests, and reliable follow-through. |
 
+| [AskQuestion](.agents/skills/askquestion/SKILL.md) | Interview closing questions focused on team problems, success criteria, and onboarding preparation. |
+
 ## Install
 
 For project-local use, copy the `.agents/skills/` directory into the root of your Codex project.
